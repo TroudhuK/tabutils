@@ -183,6 +183,14 @@ menuseparator:last-child {
   vertical-align: top;
 }
 
+#tabbrowser-tabs[multirow] + #new-tab-button {
+  display: none;
+}
+
+#tabbrowser-tabs[multirow] .tabbrowser-arrowscrollbox > .tabs-newtab-button {
+  visibility: visible;
+}
+
 /* Bookmarks with history */
 .bookmark-item[history] {
   color: blue;
